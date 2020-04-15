@@ -1,0 +1,25 @@
+{
+  "name": "best-practices",
+  "version": "1.0.0",
+  "description": "Demonstrate ES6, TDD, and custom elements with zero dependencies.",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "ava --verbose tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannybrian/best-practices.git"
+  },
+  "author": "Danny Brian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dannybrian/best-practices/issues"
+  },
+  "homepage": "https://github.com/dannybrian/best-practices#readme",
+  "dependencies": {
+    "ava": "^1.4.1"
+  }
+}
