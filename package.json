@@ -26,8 +26,7 @@
     "ava": "^1.4.1",
     "browserify": "^16.5.1",
     "esmify": "^2.1.1",
-    "lit-element": "^2.3.1",
-    "squash": "0.0.18"
+    "lit-element": "^2.3.1"
   },
   "ava": {
     "require": [
