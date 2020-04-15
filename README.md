@@ -13,6 +13,7 @@ Of course, "best practices" never are, with new innovations and improvements con
 2. Install dependencies. You might need root permissions.
 
    `% npm install -g local-web-server browserify uglify-es`
+   
    `% cd best-practices/; npm install`
 
 3. Run the tests.
@@ -22,6 +23,7 @@ Of course, "best practices" never are, with new innovations and improvements con
 4. Build the app.
 
    `% npm run build;`
+   
    `% npm run build-prod;`
 
 5. Run the app.
