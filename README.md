@@ -22,9 +22,9 @@ Of course, "best practices" never are, with new innovations and improvements con
 
 4. Build the app.
 
-   `% npm run build;`
+   `% npm run build`
    
-   `% npm run build-prod;`
+   `% npm run build-prod`
 
 5. Run the app.
 
