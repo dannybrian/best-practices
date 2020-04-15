@@ -1,4 +1,4 @@
-# Best Practices
+# Best Practices for Standards-Based Front End Development
 
 Developers have evolved a long list of approaches to modules, testing, and above all, front-end frameworks to tackle maintainable JavaScript projects. But in 2020, standards including ES6 modules and custom elements provide most of what is needed. This repo demonstrates one such approach with vanilla JavaScript, supported in all modern browsers.
 
