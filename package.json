@@ -7,7 +7,10 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "ava --verbose tests/*.js"
+    "serve": "ws -d web/ -p 8000",
+    "test": "ava --verbose tests/*.js",
+    "build": "browserify --debug src/index.js -p esmify > web/build.js;",
+    "build-prod": "uglifyjs web/build.js -o web/build.min.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +23,15 @@
   },
   "homepage": "https://github.com/dannybrian/best-practices#readme",
   "dependencies": {
-    "ava": "^1.4.1"
+    "ava": "^1.4.1",
+    "browserify": "^16.5.1",
+    "esmify": "^2.1.1",
+    "lit-element": "^2.3.1",
+    "squash": "0.0.18"
+  },
+  "ava": {
+    "require": [
+      "esm"
+    ]
   }
 }
