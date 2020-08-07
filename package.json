@@ -23,8 +23,9 @@
   },
   "homepage": "https://github.com/dannybrian/best-practices#readme",
   "dependencies": {
-    "ava": "^1.4.1",
-    "browserify": "^16.5.1",
+    "ava": "^3.11.1",
+    "browserify": "^16.5.2",
+    "esm": "^3.2.25",
     "esmify": "^2.1.1",
     "lit-element": "^2.3.1"
   },
